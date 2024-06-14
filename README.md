@@ -18,10 +18,14 @@
 # **Prediction**
 This section gives an overview of the machine learning models used for the prediction purpose. After making the features, the last part of the project that remains is the prediction of the stock prices for which 3 machine learning models are used viz. Linear Regression, Random Forest Regression, Xgboost Regression.
 * **Linear Regression**
- Linear regression is a linear approach for modelling the relationship between a scalar response and one or more explanatory variables (also known as dependent and independent variables). 
+ Linear regression is a linear approach for modelling the relationship between a scalar response and one or more explanatory variables (also known as dependent and independent variables).
+
+Please go to the code section 
 * **Random Forest Regression**
   Random Forest Regression is an ensemble method for the regression purpose. It consists of many decision trees giving the output or prediction which is the mean of the predictions from the decision trees. The hyperparameters used in the model are:
   - n estimators = 100 (Number of trees to fit)
   - max depth = 50 (Maximum tree depth of the decision trees)
   - random state = 42 (the seed to start)
-which has been set by tuning the hyperparameters for the trainign data by GridSearchCV.
+ 
+Please go to the code section 
+* **XgBoost regression

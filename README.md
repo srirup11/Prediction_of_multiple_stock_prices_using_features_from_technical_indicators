@@ -21,6 +21,7 @@ This section gives an overview of the machine learning models used for the predi
  Linear regression is a linear approach for modelling the relationship between a scalar response and one or more explanatory variables (also known as dependent and independent variables).
 
 Please go to the code section: [Linear Regression Fitting](https://github.com/srirup11/Prediction_of_multiple_stock_prices_using_features_from_technical_indicators/blob/main/codes/Linear%20Regression%20Fitting.ipynb) 
+
 * **Random Forest Regression**
   Random Forest Regression is an ensemble method for the regression purpose. It consists of many decision trees giving the output or prediction which is the mean of the predictions from the decision trees. The hyperparameters used in the model are:
   - n estimators = 100 (Number of trees to fit)
@@ -28,4 +29,13 @@ Please go to the code section: [Linear Regression Fitting](https://github.com/sr
   - random state = 42 (the seed to start)
  
 Please go to the code section: [Random_Forest_Regression_Fitting](https://github.com/srirup11/Prediction_of_multiple_stock_prices_using_features_from_technical_indicators/blob/main/codes/Random_Forest_Regression_Fitting.ipynb)
-* **XgBoost regression
+
+* **XgBoost regression**
+   XgBoost regression is an ensemble method to do the supervised regression.It expects to have the base learners which are uniformly bad at the remainder so that when all the predictions are combined, bad predictions cancels out and better one sums up to form final good predictions. The hyperparameters used in the model are:
+  - n estimators = 100 (Number of boosted trees to t)
+  - max depth = 10 (Maximum tree depth for base learners)
+  - learning rate = 0.2 (Boosting learning rate)
+  - min child weight = 1 (Minimum sum of instance weight(hessian) needed in a child)
+
+Please go to the code section: 
+  

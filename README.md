@@ -13,4 +13,4 @@
  For downloading the data for the stocks please go to [data extraction.ipynb](https://github.com/srirup11/Prediction_of_multiple_stock_prices_using_features_from_technical_indicators/blob/main/codes/data%20extraction.ipynb)
 
  # **Feature Engineering**
- In this project, extracting the features for prediction of the stock prices plays the most important role. The features are constructed  
+ This section provides details on the technical indicators used as the features and some other features for prediction in the project. Technical indicators are mathematical calculations based on the price, volume, or open interest of a security or contract. For constructing the features please see 

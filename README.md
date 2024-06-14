@@ -37,5 +37,5 @@ Please go to the code section: [Random_Forest_Regression_Fitting](https://github
   - learning rate = 0.2 (Boosting learning rate)
   - min child weight = 1 (Minimum sum of instance weight(hessian) needed in a child)
 
-Please go to the code section: 
+Please go to the code section: [XgBoost Regression Fitting](https://github.com/srirup11/Prediction_of_multiple_stock_prices_using_features_from_technical_indicators/blob/main/codes/XgBoost%20Regression%20Fitting.ipynb)
   

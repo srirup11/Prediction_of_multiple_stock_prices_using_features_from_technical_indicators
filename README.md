@@ -2,7 +2,7 @@
 **Welcome to the project!  This section gives an overview of the project.**
 
 <div style="font-size:24px; font-weight:bold;">
-  <p style="color:red; animation: blinker 1s linear infinite;">**Welcome to the project!  This section gives an overview of the project.**</p>
+  <p style="color:red; animation: blinker 1s linear infinite;">Welcome to the project!</p>
 </div>
 
 <style>

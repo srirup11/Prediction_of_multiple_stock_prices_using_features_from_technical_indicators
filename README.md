@@ -20,7 +20,7 @@ This section gives an overview of the machine learning models used for the predi
 * **Linear Regression**
  Linear regression is a linear approach for modelling the relationship between a scalar response and one or more explanatory variables (also known as dependent and independent variables).
 
-Please go to the code section 
+Please go to the code section: [Linear Regression Fitting.ipynb](https://github.com/srirup11/Prediction_of_multiple_stock_prices_using_features_from_technical_indicators/blob/main/codes/Linear%20Regression%20Fitting.ipynb) 
 * **Random Forest Regression**
   Random Forest Regression is an ensemble method for the regression purpose. It consists of many decision trees giving the output or prediction which is the mean of the predictions from the decision trees. The hyperparameters used in the model are:
   - n estimators = 100 (Number of trees to fit)

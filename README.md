@@ -14,3 +14,14 @@
 
  # **Feature Engineering**
  This section provides details on the technical indicators used as the features and some other features for prediction in the project. Technical indicators are mathematical calculations based on the price, volume, or open interest of a security or contract. For constructing the features please see [Feature Extraction.ipynb](https://github.com/srirup11/Prediction_of_multiple_stock_prices_using_features_from_technical_indicators/blob/main/codes/Feature%20Extraction.ipynb) and covariate data for the stocks are saved in the folder [Preprocessed_data_of_stocks](https://github.com/srirup11/Prediction_of_multiple_stock_prices_using_features_from_technical_indicators/tree/main/Preprocessed_data_of_stocks) with the names as {Stock_name}_FINAL.csv e.g CIPLA_FINAL.csv.
+
+# **Prediction**
+This section gives an overview of the machine learning models used for the prediction purpose. After making the features, the last part of the project that remains is the prediction of the stock prices for which 3 machine learning models are used viz. Linear Regression, Random Forest Regression, Xgboost Regression.
+* **Linear Regression**
+ Linear regression is a linear approach for modelling the relationship between a scalar response and one or more explanatory variables (also known as dependent and independent variables). 
+* **Random Forest Regression**
+  Random Forest Regression is an ensemble method for the regression purpose. It consists of many decision trees giving the output or prediction which is the mean of the predictions from the decision trees. The hyperparameters used in the model are:
+  - n estimators = 100 (Number of trees to fit)
+  - max depth = 50 (Maximum tree depth of the decision trees)
+  - random state = 42 (the seed to start)
+which has been set by tuning the hyperparameters for the trainign data by GridSearchCV.

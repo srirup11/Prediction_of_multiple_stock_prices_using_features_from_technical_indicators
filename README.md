@@ -6,4 +6,5 @@
 
 
  # **Downloading Data**
- To get started with the project, you need to download the necessary data files. The data for the Stocks specified above are downloaded through **Yahoo Finance** by the yahoo finance package in python. For downloading the data for the stocks please go to 
+ To get started with the project, you need to download the necessary data files. The data for the Stocks specified above are downloaded through **Yahoo Finance** by the yahoo finance package in python. 
+ For downloading the data for the stocks please go to [data extraction.ipynb](https://github.com/srirup11/Prediction_of_multiple_stock_prices_using_features_from_technical_indicators/blob/main/codes/data%20extraction.ipynb)

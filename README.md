@@ -5,5 +5,5 @@
  Here, we downloaded and used real life stocks data of di erent domain on which we implemented several models.We choose five sectors namely **Cipla(pharmaceutical)**, **Coromandel(Agriculture)**, **HDFC Bank(Banking)**, **TCS(IT)**, **Bharat Petroleum(oil and petroleum)**.
 
 
- # **Data sourcing**
-The data for the Stocks specified above are downloaded through **Yahoo Finance** by the Yahoo Finance library in python.
+ # **Downloading Data**
+ To get started with the project, you need to download the necessary data files. The data for the Stocks specified above are downloaded through **Yahoo Finance** by the yahoo finance package in python. For downloading the data for the stocks please go to 

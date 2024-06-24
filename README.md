@@ -45,6 +45,6 @@ Please go to the code section: [XgBoost Regression Fitting](https://github.com/s
 **MSE**
  The Mean squared error (MSE) represents the error of the estimator or predictive model created based on the given set of observations in the sample. Intuitively, the MSE is used to measure the quality of the model based on the predictions made on the entire training dataset vis-a-vis the true label/output value. Mathematically, it is defined as:
  $$
- \frac{1}{n} \sum_{i=1}{n} (x_{i}- \bar_x)**2 
+ \frac{1}{n} \sum_{i=1}{n} 
  $$
 

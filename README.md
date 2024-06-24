@@ -55,6 +55,6 @@ where, n is the total number of observations, y is the observed value and $\hat{
   It is nothing but the square rooted version of the MSE. It is done to bring the error measure to the same unit as the observed values. That is, the RMSE is:
 
 $$
-\text{RMSE} = \sqrt (\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2)
+\text{RMSE} = \sqrt {\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
 $$
 

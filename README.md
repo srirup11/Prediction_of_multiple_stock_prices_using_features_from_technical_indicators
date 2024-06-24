@@ -17,12 +17,12 @@
 
 # **Prediction**
 This section gives an overview of the machine learning models used for the prediction purpose. After making the features, the last part of the project that remains is the prediction of the stock prices for which 3 machine learning models are used viz. Linear Regression, Random Forest Regression, Xgboost Regression.
-* **Linear Regression**
+* **Linear Regression:**
  Linear regression is a linear approach for modelling the relationship between a scalar response and one or more explanatory variables (also known as dependent and independent variables).
 
 Please go to the code section: [Linear Regression Fitting](https://github.com/srirup11/Prediction_of_multiple_stock_prices_using_features_from_technical_indicators/blob/main/codes/Linear%20Regression%20Fitting.ipynb) 
 
-* **Random Forest Regression**
+* **Random Forest Regression:**
   Random Forest Regression is an ensemble method for the regression purpose. It consists of many decision trees giving the output or prediction which is the mean of the predictions from the decision trees. The hyperparameters used in the model are:
   - n estimators = 100 (Number of trees to fit)
   - max depth = 50 (Maximum tree depth of the decision trees)
@@ -30,7 +30,7 @@ Please go to the code section: [Linear Regression Fitting](https://github.com/sr
  
 Please go to the code section: [Random_Forest_Regression_Fitting](https://github.com/srirup11/Prediction_of_multiple_stock_prices_using_features_from_technical_indicators/blob/main/codes/Random_Forest_Regression_Fitting.ipynb)
 
-* **XgBoost regression**
+* **XgBoost regression:**
    XgBoost regression is an ensemble method to do the supervised regression.It expects to have the base learners which are uniformly bad at the remainder so that when all the predictions are combined, bad predictions cancels out and better one sums up to form final good predictions. The hyperparameters used in the model are:
   - n estimators = 100 (Number of boosted trees to t)
   - max depth = 10 (Maximum tree depth for base learners)
@@ -42,7 +42,7 @@ Please go to the code section: [XgBoost Regression Fitting](https://github.com/s
 
 # **Evaluation Metrices**
 
-* **MSE**
+* **MSE:**
  The Mean squared error (MSE) represents the error of the estimator or predictive model created based on the given set of observations in the sample. Intuitively, the MSE is used to measure the quality of the model based on the predictions made on the entire training dataset vis-a-vis the true label/output value. Mathematically, it is defined as:
  
 $$
@@ -51,80 +51,98 @@ $$
 
 where, n is the total number of observations, y is the observed value and $\hat{y}$ is the predicted value. 
 
-* **RMSE**
+* **RMSE:**
+
   It is nothing but the square rooted version of the MSE. It is done to bring the error measure to the same unit as the observed values. That is, the RMSE is:
 
 $$
 \text{RMSE} = \sqrt {\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}
 $$
 
-# ** Experimental Results**
+# **Experimental Results**
 
 <table>
   <thead>
     <tr>
-      <th colspan="3">Main Column 1</th>
-      <th>Main Column 2</th>
-      <th>Main Column 3</th>
+      <th rowspan="2">Sectors</th>
+      <th rowspan="2">Metrices</th>
+      <th colspan="3">Models</th>
     </tr>
     <tr>
-      <th>Sub-column 1.1</th>
-      <th>Sub-column 1.2</th>
-      <th>Sub-column 1.3</th>
-      <th></th>
-      <th></th>
+      <th>Random Forest Regression</th>
+      <th>XgBoost Regression</th>
+      <th>Linear Regression</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="2">Row 1.1</td>
-      <td rowspan="2">Row 1.2</td>
-      <td rowspan="2">Row 1.3</td>
-      <td rowspan="2">Row 1 Col 2</td>
-      <td rowspan="2">Row 1 Col 3</td>
+      <td rowspan="2">HDFC</td>
+      <td>MSE</td>
+      <td>154.12</td>
+      <td>237.85</td>
+      <td>3.33</td>
     </tr>
-    <tr></tr>
     <tr>
-      <td rowspan="2">Row 2.1</td>
-      <td rowspan="2">Row 2.2</td>
-      <td rowspan="2">Row 2.3</td>
-      <td rowspan="2">Row 2 Col 2</td>
-      <td rowspan="2">Row 2 Col 3</td>
+      <td>RMSE</td>
+      <td>12.41</td>
+      <td>15.42</td>
+      <td>1.82</td>
     </tr>
-    <tr></tr>
     <tr>
-      <td rowspan="2">Row 3.1</td>
-      <td rowspan="2">Row 3.2</td>
-      <td rowspan="2">Row 3.3</td>
-      <td rowspan="2">Row 3 Col 2</td>
-      <td rowspan="2">Row 3 Col 3</td>
+      <td rowspan="2">Bharat Petrolium</td>
+      <td>MSE</td>
+      <td>0.38</td>
+      <td>0.59</td>
+      <td>0.01</td>
     </tr>
-    <tr></tr>
     <tr>
-      <td rowspan="2">Row 4.1</td>
-      <td rowspan="2">Row 4.2</td>
-      <td rowspan="2">Row 4.3</td>
-      <td rowspan="2">Row 4 Col 2</td>
-      <td rowspan="2">Row 4 Col 3</td>
+      <td>RMSE</td>
+      <td>0.62</td>
+      <td>0.77</td>
+      <td>0.12</td>
     </tr>
-    <tr></tr>
     <tr>
-      <td rowspan="2">Row 5.1</td>
-      <td rowspan="2">Row 5.2</td>
-      <td rowspan="2">Row 5.3</td>
-      <td rowspan="2">Row 5 Col 2</td>
-      <td rowspan="2">Row 5 Col 3</td>
+      <td rowspan="2">Cipla</td>
+      <td>MSE</td>
+      <td>4143.62</td>
+      <td>4240.27</td>
+      <td>1.21</td>
     </tr>
-    <tr></tr>
     <tr>
-      <td>Row 6.1</td>
-      <td>Row 6.2</td>
-      <td>Row 6.3</td>
-      <td>Row 6 Col 2</td>
-      <td>Row 6 Col 3</td>
+      <td>RMSE</td>
+      <td>64.37</td>
+      <td>65.12</td>
+      <td>1.1</td>
+    </tr>
+    <tr>
+      <td rowspan="2">Coromandel</td>
+      <td>MSE</td>
+      <td>4059.98</td>
+      <td>3373.08</td>
+      <td>1.75</td>
+    </tr>
+    <tr>
+      <td>RMSE</td>
+      <td>63.72</td>
+      <td>58.08</td>
+      <td>1.32</td>
+    </tr>
+    <tr>
+      <td rowspan="2">TCS</td>
+      <td>MSE</td>
+      <td>13501.76</td>
+      <td>1903.9</td>
+      <td>14.19</td>
+    </tr>
+    <tr>
+      <td>RMSE</td>
+      <td>116.2</td>
+      <td>43.63</td>
+      <td>3.77</td>
     </tr>
   </tbody>
 </table>
+
 
 
 

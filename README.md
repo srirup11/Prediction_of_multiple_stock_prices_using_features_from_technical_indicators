@@ -52,7 +52,6 @@ $$
 where, n is the total number of observations, y is the observed value and $\hat{y}$ is the predicted value. 
 
 * **RMSE:**
-
   It is nothing but the square rooted version of the MSE. It is done to bring the error measure to the same unit as the observed values. That is, the RMSE is:
 
 $$

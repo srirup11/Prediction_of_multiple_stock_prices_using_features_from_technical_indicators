@@ -48,3 +48,4 @@ Please go to the code section: [XgBoost Regression Fitting](https://github.com/s
 $$
 \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 $$
+where, n is the total number of observations, y is the observed value and ^ y is the predicted value. 

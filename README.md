@@ -169,7 +169,21 @@ Now let us look at the plots for comparing the predictions given by the models f
   ![XgBoost Regression](Plots/Cipla/XgBoost_regression_Cipla.png)
   
 * **Coromandel:**
+
+  ![Linear Regression](Plots/Coromandel/Linear_regression_Coromandel.png)
+  
+  ![Random Forest Regression](Plots/Coromandel/Random_forest_regression_Coromandel.png)
+
+  ![XgBoost Regression](Plots/Coromandel/XgBoost_regression_Coromandel.png)
+  
 * **TCS:**
+
+  ![Linear Regression](Plots/TCS/Linear_regression_TCS.png)
+  
+  ![Random Forest Regression](Plots/TCS/Random_forest_regression_TCS.png)
+
+  ![XgBoost Regression](Plots/TCS/XgBoost_regression_TCS.png)
+  
 
 
 

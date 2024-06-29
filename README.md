@@ -159,7 +159,7 @@ Now let us look at the plots for comparing the predictions given by the models f
   ![random Forest Regression](Plots/Bharat%20Petroleum/Random_forest_regression_Bharat_Petroleum.png)
 
   ![XgBoost Regression](Plots/Bharat%20Petroleum/XgBoost_regression_Bharat_Petroleum.png)
-  
+
 * **Cipla:**
 
   ![Linear Regression](Plots/Cipla/Linear_regression_Cipla.png)
@@ -183,8 +183,12 @@ Now let us look at the plots for comparing the predictions given by the models f
   ![Random Forest Regression](Plots/TCS/Random_forest_regression_TCS.png)
 
   ![XgBoost Regression](Plots/TCS/XgBoost_regression_TCS.png)
+
+
+  For all the stock prices, Linear Regression is the best to predict. But Random Forest Regression and XgBoost Regression fail to predict the price of the stocks Cipla & Coromandel for the period of the sudden bull run.
   
+# **Summary**
 
-
+All the machine learning models; Random Forest, XG Boost and Linear regression seem to work very well on such a long data. Historical data of 10 years was taken which was divided into Training, Validation and Testing. Linear regression performs the best since the features and the stock price are linearly related i.e the stock price is almost perfect linear combination of the features which have been extracted.
 
 

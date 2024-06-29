@@ -144,11 +144,11 @@ $$
 
 Now let us look at the plots for comparing the predictions given by the models for each of the stocks.
 
-* **HDFC**
-* **Bharat Petroleum**
-* **Cipla**
-* **Coromandel**
-* **TCS**
+* **HDFC:**
+* **Bharat Petroleum:**
+* **Cipla:**
+* **Coromandel:**
+* **TCS:**
 
 
 

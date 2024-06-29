@@ -154,6 +154,12 @@ Now let us look at the plots for comparing the predictions given by the models f
   
 * **Bharat Petroleum:**
   
+  ![Linear Regression](Plots/Bharat%20Petroleum/Linear_regression_Bharat_Petroleum.png)
+
+  ![random Forest Regression](Plots/Bharat%20Petroleum/Random_forest_regression_Bharat_Petroleum.png)
+
+  ![XgBoost Regression](Plots/Bharat%20Petroleum/XgBoost_regression_Bharat_Petroleum.png)
+  
 * **Cipla:**
 * **Coromandel:**
 * **TCS:**

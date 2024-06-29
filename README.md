@@ -145,7 +145,15 @@ $$
 Now let us look at the plots for comparing the predictions given by the models for each of the stocks.
 
 * **HDFC:**
+  
+  ![Linear Regression](Plots/HDFC/Linear_regression_HDFC.png)
+  
+  ![Random Forest Regression](Plots/HDFC/Random_forest_regression_HDFC.png)
+
+  ![XgBoost Regression](Plots/HDFC/XgBoost_regression_HDFC.png)
+  
 * **Bharat Petroleum:**
+  
 * **Cipla:**
 * **Coromandel:**
 * **TCS:**
